@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--Decleration that this is a HTML page-->
+
+<html> <!--# delineation of where the document starts-->
+
+    <head> <!-- stuff you don't really see, stuff thats not on the page-->
+        <meta charset="utf-8"/> <!-- meta defines the metadata, charset is the character set-->
+        <title> Hello, Flask</title> <!-- what shows up at the top of the tab-->
+    </head>
+
+       <!--NOTES-->
+        <!--Tags that don't require a closing tag: <br> creates a line break, <hr> creates a horizontal line, <img> loads up the image--> 
+        <!--Headings: h1 (largest) goes up to h6 (smallest) -->
+        <!--Use conditionals/Jinja control block: 
+            {% if %}
+            {% else %}
+            {% endif %}   -->
+
+    <body>
+        <h1> Welcome to my first Flask application skibidis!</h1>
+        
+        {% if name %}
+            <p> 
+                Hello, {{ name }}
+            </p>
+        {% else %}
+            <p>
+                What's your name??? 
+            </p>
+        {% endif %}
+            <p>
+
+            </p>
+    </body>
+
+</html> <!--# delineation of where the document starts-->
