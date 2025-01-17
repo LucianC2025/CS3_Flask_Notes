@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Index route for web app (homepage) (think: "What do you see when you first load up this page")
 @app.route("/")
 def index():
-    return "Hello, world!"
+    return "Hello world!"
 
 @app.route("/hello/")
 @app.route("/hello/<name_data>")
