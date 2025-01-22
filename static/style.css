@@ -2,15 +2,16 @@
 
 
 html, body {
-    background-color: rgb(251, 245, 229);
-    color: rgb(163, 92, 122);
-    font-size: 20;
+    background-color: #3F6C51;
+    color: #F39A9D;
+    font-size: 30;
     font-family: UnifrakturMaguntia; 
     text-align: center;
 }
 
 h1 {
     color:  rgb(33, 33, 33);
+    font-size: 30;
 }
 
 p {
@@ -19,4 +20,32 @@ p {
 
 div {
     background-color: rgb(200, 144, 167); 
+}
+
+.navbar {
+    background-color: lightslategray;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    margin-left: 30px;
+}
+
+.body-content {
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
