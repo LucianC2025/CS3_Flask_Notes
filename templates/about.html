@@ -1,8 +1,31 @@
 {% extends 'layout.html' %}
+
 {% block title %}
-About
+    About
 {% endblock %}
+
 {% block content %}
-<h1> About </h1>
-<p> about page</p>
+    <h2> About </h2>
+    {% if mood == "good" %}
+        <p> Hello!!! I'm so happy you are here!!</p>
+    {% elif mood == "bad" %}
+        <p> Dayum what happened?</p>
+    {% else %}
+        <p> what? </p>
+    {% endif %}
+
+    <h3> Best Class Ever!</h3>
+    <ul> 
+        {% for friend in friends %}
+            <li> {{ friend }} </li>
+        {% endfor %}
+    </ul>
+
+    <dl>
+        {% for key, value in my_dictionary.items() %}
+            <dt> {{ key }} </dt>
+            <dd> {{ value }} </dd>
+        {% endfor %} 
+    </dl>
+
 {% endblock %}

@@ -2,24 +2,24 @@
 
 
 html, body {
-    background-color: #3F6C51;
-    color: #F39A9D;
+    background-color: #D3BBDD;
+    color: #6B4B3E;
     font-size: 30;
     font-family: UnifrakturMaguntia; 
-    text-align: center;
+    /* text-align: center; */
 }
 
 h1 {
-    color:  rgb(33, 33, 33);
+    color: #D3BBDD;
     font-size: 30;
 }
 
 p {
-    color: rgb(33, 33, 33);
+    color: #6B4B3E;
 }
 
 div {
-    background-color: rgb(200, 144, 167); 
+    background-color: #C49E85; 
 }
 
 .navbar {
