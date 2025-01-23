@@ -2,28 +2,28 @@
 
 
 html, body {
-    background-color: #D3BBDD;
-    color: #6B4B3E;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQ1LJEWlUamkwKVM_rh3z8eIdcQgBEPo9Y5ECFYt4jp5FCAQMGbsz-QF8CIXgcdw7rvM&usqp=CAU");
+    color: #81ADC8;
     font-size: 30;
     font-family: UnifrakturMaguntia; 
     /* text-align: center; */
 }
 
 h1 {
-    color: #D3BBDD;
+    color: #3DA5D9;
     font-size: 30;
 }
 
 p {
-    color: #6B4B3E;
+    color: #81ADC8;
 }
 
 div {
-    background-color: #C49E85; 
+    background-color: #F8F2DC; 
 }
 
 .navbar {
-    background-color: lightslategray;
+    background-color: #3DA5D9;
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;

@@ -28,7 +28,7 @@ def about():
     # Declare vairable
      current_mood = "good"
      friends_list = ['Eliza', 'Courtney', 'Lucian', 'Alex', 'Abby', 'Sohan', 'Grace']
-     definitions = { 'platypus': 'a blue-green creature that is very good at solving mysteries', 'ladybug': 'an apex predator with magical properties', 'giraffe': 'cunty long neck animal with purple tongue'}
+     definitions = {'platypus': 'a blue-green creature that is very good at solving mysteries', 'ladybug': 'an apex predator with magical properties', 'giraffe': 'cunty long neck animal with purple tongue'}
     # Pass Variable into rendered template
      return render_template("about.html", mood = current_mood, friends=friends_list, my_dictionary = definitions)
 
